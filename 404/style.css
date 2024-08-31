@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.topo {
+  width: 100%;
+  height: 10%;
+  background-color: #ffffff;
+  display: flex;
+}
+.t-esquerda {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.t-direita {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: -40px;
+  padding-left: 10px;
+}
+.icone{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10%;
+}
+.menu a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+.meio {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-color: #37474f;
+}
+.fim {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.footer{
+  width: 50%;
+  height: 100%;
+ display: flex;
+justify-content: space-between;
+padding-right: 40px;
+
+}
+.footer a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+}
+.footer i{
+  font-size: 24px;
+  transition: all 300ms ease;
+}
+.icones{
+  display: flex;
+  gap: 5px;
+
+}
+.footer i:hover{
+  color: #37474f;
+}
+.esquerda {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.direita {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.texto {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 15px;
+  width: 120px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.botoes button {
+  gap: 15px;
+}
+#btn-Esquerdo {
+  border: none;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  transition: all 300ms ease;
+}
+#btn-esquerdo:hover {
+  background: #000000;
+}
+#btn-direito {
+  border-radius: 7px;
+  background: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  transition: all 300ms ease;
+}
+.botoes {
+  display: flex;
+  gap: 15px;
+}
+#btn-direito:hover {
+  border: 1px solid #000000;
+  border-radius: 7px;
+}
